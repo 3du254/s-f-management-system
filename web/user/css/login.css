@@ -1,0 +1,407 @@
+/*farmer login css*************************************************************************************************/
+body{
+    font-family:Helvetica;
+}
+a{
+    text-decoration:none;
+}
+p{
+    margin:10px auto auto 43%;
+}
+p a{
+    color:#0C6;
+}
+body{
+    font-family:"Arial Narrow";
+    background-color: #636b77;
+}
+
+ul.tab{
+    list-style-type: none;
+    width:30%;
+    margin: 15vh auto auto auto;
+    padding: 0;
+    overflow: hidden;
+}
+ul.tab li{
+    float: left;
+}
+ul.tab a{
+    display: inline-block;
+    padding: 10px;
+    width: 4.5vw;
+    text-align: center;
+    color: #FFF;
+    transition: 0.3s;
+}
+ul.tab li a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+ul.tab li a:focus, .active{
+    background-color: #F9F9F9;
+    color: #000;
+}
+#titleLP{
+    background-color:#F9F9F9;
+    width:30%;
+    height:40px;
+    margin:0vh auto auto auto;
+    border-top:solid 1px #FFF;
+    border-bottom:hidden;
+    border-left: none;
+}
+#titleLP h3{
+    margin:9px auto auto 20px;
+}
+.login_wrapper {
+    display: none;
+    background-color: #FFF;
+    border-top:solid 1px #D2D2D2;
+    width:30%;
+    height:215px;
+    margin:auto auto auto auto;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+    
+}
+/*farmer wrapper css**************************************************************************************************/
+#wrapper_inspector input[type=submit]{
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+}
+.showModal {
+    border:none;
+    background-color:#FFF;
+    color:#004182;
+}
+#signUp{
+    margin:auto;
+    width:91%;
+    margin-top:1vh;
+}
+#alertMsg{
+    width:20%;
+    margin:auto;
+}
+#wrapper_farmer input{
+    display:block;
+    box-shadow:none;
+    margin:15px auto auto auto;
+}
+#wrapper_farmer input[type=text]{
+    padding-left:20px;
+    text-align:start;
+    width:85%;
+    height:30px;
+    font-size:14px;
+
+}
+#wrapper_farmer input[type=password]{
+    padding-left:20px;
+    text-align:start;
+    width:85%;
+    height:30px;
+    font-size:14px;
+}
+#wrapper_farmer input[type=submit]{
+    border:solid 0.5px #356e35;
+    border-radius:3px;
+    background:#356e35;
+    margin:20px auto auto auto;
+    width:91%;
+    height:47px;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    color:#FFF;
+}
+
+.form-input::before{
+    content:"\f007";
+    position:absolute;
+    font-family:"FontAwesome";
+    font-size:16px;
+    margin:9px auto 0 24px;
+    color:#004221;
+}
+.form-input2::before{
+    content:"\f023";
+    position:absolute;
+    font-family:"FontAwesome";
+    font-size:17px;
+    margin:10px auto 0 24px;
+    color:#004221;
+}
+.loginError{
+    margin:auto;
+    margin-top:25vh;
+    display:block;
+    height:3vh;
+    width:15vw;
+    height:20%;
+    background-color:#FFF;
+}
+.loginError button{
+    margin-left:vw;
+    margin-top:9vh;
+    border:none;
+    background-color:#FF6347;
+    width:15vw;
+    height:4vh;
+    color:#fff;
+    font-size:14px;
+    font-family:"Arial Narrow";
+}
+.loginError h5{
+    position:absolute;
+    left:47.5vw;
+    top:29.5vh;
+    color:#333;
+    text-align:center;
+    font-family:"Arial Narrow";
+}
+.loginError p{
+    position:absolute;
+    left:45.5vw;
+    top:35vh;
+    color:#333;
+    text-align:center;
+    font-family:"Arial Narrow";
+}
+#loginError_bg{
+    cursor:pointer;
+    background:rgba(0,0,0,.6);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+
+}
+.fa-warning{
+    font-size:4vh;
+    position:;
+    margin-top:3vh;
+    margin-left:6.3vw;
+    color:#FF6347;
+    text-align:center;
+}
+/*>>registration modal<<..............................................................................................................*/
+#addFarmerModal{
+    display:none;
+    position:fixed;
+    background-color:#fff;
+    height:90vh;
+    width:40vw;
+    left:30vw;
+    top:6vh;
+}
+#addFarmerModal span{
+    color:#999;
+    cursor:pointer;
+    float:right;
+    font-size:20px;
+    margin-right:1.5vw;
+    margin-top:2vh;
+}
+#addFarmerModal span:hover {
+    color:#666;
+}
+#modal_bg{
+    cursor:pointer;
+    display:none;
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,.6);
+    top:0;
+    left:0;
+}
+
+#modalContent, #modalTop{
+    margin:auto;
+    width:80%;
+}
+
+.input_full{
+    font-size:14px;
+    position:relative;
+    width:31vw;
+    padding:1.2vh;
+    margin-bottom:2vh;
+    border-radius:3px;
+    border:#F1F1F1 1px solid;
+
+}
+.input_half{
+    font-size:14px;
+    position:relative;
+    width:13.8vw;
+    padding:1.2vh;
+    margin-right:0.7vw;
+    margin-bottom:1vh;
+    border-radius:3px;
+    border:#F1F1F1 1px solid;
+}
+
+#modalContent input[type=submit]{
+    position:absolute;
+    right:4vw;
+    border:none;
+    width:8vw;
+    padding:1.5vh;
+    background:#409FFF;
+    border-radius:2px;
+    color:#FFF;
+}
+.btnLeft{
+    color:#409FFF;
+    font-size:14px;
+    cursor:pointer;
+}
+.btnLeft:hover{
+    color:#0080FF;
+}
+#updateModal{
+    background-color:#F00;
+    position:absolute;
+    height:50vh;
+    width:40vw;
+    top:0;
+    display:none;
+}
+
+/*>>end registration modal<<..............................................................................................................*/
+
+
+
+
+/*inspector login css***************************************************************************************************/
+.showModal{
+    border:none;
+    background-color:#FFF;
+    color:#004182;
+}
+#signUp{
+    margin:auto;
+    width:91%;
+    margin-top:1vh;
+}
+#alertMsg{
+    width:20%;
+    margin:auto;
+}
+#wrapper_inspector input{
+    display:block;
+    box-shadow:none;
+    margin:15px auto auto auto;
+}
+#wrapper_inspector input[type=text]{
+    padding-left:20px;
+    text-align:start;
+    width:85%;
+    height:30px;
+    font-size:14px;
+
+}
+#wrapper_inspector input[type=password]{
+    padding-left:20px;
+    text-align:start;
+    width:85%;
+    height:30px;
+    font-size:14px;
+}
+#wrapper_inspector input[type=submit]{
+    border:solid 0.5px #2c96c3;
+    border-radius:3px;
+    background:#2c96c3;
+    margin:20px auto auto auto;
+    width:91%;
+    height:47px;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    color:#FFF;
+}
+.form-input::before{
+    content:"\f007";
+    position:absolute;
+    font-family:"FontAwesome";
+    font-size:16px;
+    margin:9px auto 0 24px;
+    color:#004221;
+}
+.form-input2::before{
+    content:"\f023";
+    position:absolute;
+    font-family:"FontAwesome";
+    font-size:17px;
+    margin:10px auto 0 24px;
+    color:#004221;
+}
+
+/*admin login css********************************************************************************************************/
+.showModal{
+    border:none;
+    background-color:#FFF;
+    color:#004182;
+}
+#signUp{
+    margin:auto;
+    width:91%;
+    margin-top:1vh;
+}
+#alertMsg{
+    width:20%;
+    margin:auto;
+}
+#wrapper_admin input{
+    display:block;
+    box-shadow:none;
+    margin:15px auto auto auto;
+}
+#wrapper_admin input[type=text]{
+    padding-left:20px;
+    text-align:start;
+    width:85%;
+    height:30px;
+    font-size:14px;
+
+}
+#wrapper_admin input[type=password]{
+    padding-left:20px;
+    text-align:start;
+    width:85%;
+    height:30px;
+    font-size:14px;
+}
+#wrapper_admin input[type=submit]{
+    border:solid 0.5px #94141a;
+    border-radius:3px;
+    background:#94141a;
+    margin:20px auto auto auto;
+    width:91%;
+    height:47px;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    color:#FFF;
+}
+.form-input::before{
+    content:"\f007";
+    position:absolute;
+    font-family:"FontAwesome";
+    font-size:16px;
+    margin:9px auto 0 24px;
+    color:#004221;
+}
+.form-input2::before{
+    content:"\f023";
+    position:absolute;
+    font-family:"FontAwesome";
+    font-size:17px;
+    margin:10px auto 0 24px;
+    color:#004221;
+}

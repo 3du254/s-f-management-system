@@ -1,0 +1,159 @@
+body{
+	margin:0;
+	font-family:Helvetica;
+}
+#top{
+	position:absolute;
+	background-color:#1E1E3C;
+	width:86%;
+	height:43px;
+	right:0px;
+	color:#FFF;
+	font-size:14px;
+}
+#top p{
+    float: left;
+	margin:12px auto auto 10px;
+}
+
+/*>>Right wrapper<<....................................................................................................*/
+#right{
+	background-color:#fff;
+	width:86%;
+	position:absolute;
+	right:0px;
+	top:43px;
+	bottom:0px;
+}
+/*..........................................................................................................................*/
+
+
+
+
+/*>>Left Wrapper<<......................................................................................................... */
+#left{
+	background-color:#1E1E3C;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:14%;
+	height:100%;
+}
+#left ul{
+	margin:0px;
+	padding:0px;
+}
+/*..dropdown...*/
+#left ul ul{
+    display: none;
+}
+#left ul ul span{
+    margin-left: 1.5vw;
+}
+
+#left a{
+	text-decoration:none;
+	color:#FFF;
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+}
+#left i{
+	margin-right:7px;
+}
+#left .ul_main{
+    margin-top: 41px;
+}
+#left ul li{
+	list-style:none;
+}
+#left ul ul li:hover{
+    background-color: #21214f;
+}
+#left ul a:hover{
+    background-color: #21214f;
+}
+.leftHead{
+	border-bottom:solid 1px #1E1E3C;
+	height:41px;
+}
+.fa-dashboard {
+	color:cornflowerblue;
+}
+.fa-inbox {
+	color: darkgoldenrod;
+}
+.fa-user-plus {
+	color:#ed5e84;
+}
+.fa-first-order {
+	color: #5eed90;
+}
+.fa-support {
+	color: #0bf3d8;
+}
+.fa-newspaper-o {
+	color: #f4fa32;
+}
+.fa-industry {
+	color: antiquewhite;
+}
+.fa-calendar {
+	color: #04b4e0
+}
+/*..........................................................................................................*/
+.btn::before{
+    content:"\f0c9";
+    font-family:"FontAwesome";
+    color:#000;
+    font-size:20px;
+    position:absolute;
+    left:14.1vw;
+    cursor:pointer;
+    z-index:1;
+
+}
+.btn i{
+    font-size:22px;
+}
+#logout{
+    display:none;
+    position:fixed;
+    background-color:#fff;
+    right:0.5vw;
+    top:6.2vh;
+    z-index:1;
+
+}
+#logout a{
+    text-decoration:none;
+    color:#000;
+    border:solid 1px #EFEFEF;
+    display:block;
+    padding:10px 15px;
+    width:10vw;
+}
+#logout a:hover{
+    background-color:#EFEFEF;
+    color:#000;
+}
+.sessionName{
+    cursor:pointer;
+    color:#FFF;
+    float:right;
+    font-size:14px;
+    margin-top:10px;
+    margin-right:1vw;
+}
+.fa-user{
+    border:solid 1px #fff;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:#fff;
+    text-align:center;
+    margin-right:5px;
+    margin-top:0px;
+    color:#000;
+    font-size:20px;
+}

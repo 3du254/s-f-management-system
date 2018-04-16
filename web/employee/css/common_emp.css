@@ -1,0 +1,202 @@
+/* CSS Document */
+body{
+    margin:0;
+    font-family:Helvetica;
+}
+i{
+    cursor:pointer;
+}
+
+
+/*>>Top content<<................................................................................................................*/
+#header{
+    background:#1E1E3C;
+    height:6vh;
+    width:100%;
+    border-bottom:solid 0.5px #ccc;
+}
+#header h2{
+    color:#FFF;
+    float:left;
+    margin:10px;
+    font-size:17px;
+}
+#header .sessionName{
+    cursor:pointer;
+    color:#FFF;
+    float:right;
+    font-size:14px;
+    margin-top:10px;
+    margin-right:1vw;
+}
+#header .fa-user{
+    border:solid 1px #fff;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:#fff;
+    text-align:center;
+    margin-right:5px;
+    margin-top:0px;
+    color:#000;
+    font-size:20px;
+}
+/*...............................................................................................................................*/
+
+
+
+
+/*>>Left content<<..................................................................................................................*/
+#wrapperL{
+    position:absolute;
+    background-color:#1E1E3C;
+    left:0px;
+    width:14%;
+    height:94vh;
+    bottom:0px;
+}
+#wrapperL a{
+    display:block;
+    text-decoration:none;
+    color:#FFF;
+    font-size:14px;
+    padding:10px;
+}
+#wrapperL ul a .float_right{
+    float:right;
+    margin-right:5px;
+    font-size:17px;
+}
+#wrapperL ul{
+    margin:0px;
+    padding:0px;
+}
+#wrapperL li{
+    list-style:none;
+    display:block;
+}
+#wrapperL li a:hover{
+    background-color:#272750;
+}
+#wrapperL ul ul{
+    display:none;
+}
+#wrapperL ul ul li:hover{
+    background-color:#313164;
+}
+#wrapperL ul ul li span{
+    margin-left:20px;
+}
+
+.fa-dashboard{
+    color:#0080FF;
+}
+.fa-group{
+    color:#009349;
+}
+.fa-inbox{
+    color:#AA0;
+}
+.fa-calendar{
+    color:#00B7B7;
+}
+.fa-newspaper-o{
+    color:#FF8080;
+}
+.fa-support{
+    color:#00FF80;
+}
+.fa-first-order {
+    color: #5eed90;
+}
+.fa-industry {
+    color: antiquewhite;
+}
+/*...................................................................................................................................*/
+
+
+
+
+/*>>Right content<<.................................................................................................................*/
+#wrapperR{
+    position:absolute;
+    width:86%;
+    height:94vh;
+    bottom:0px;
+    right:0px;
+}
+#innerWrapper{
+    width:95%;
+    height:auto;
+    margin:0px auto auto auto;
+    padding-top:2px;
+    border:solid 1.5px #D2D2D2;
+    border-top:hidden;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+
+}
+#innerHeader{
+    width:95%;
+    margin:auto;
+}
+
+#innerTitle{
+    background-color:#F9F9F9;
+    margin:auto;
+    width:95%;
+    height:35px;
+    border:solid 1px #D2D2D2;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    font-size:14px;
+    text-height:50px;
+
+}
+#innerTitle h3{
+    margin:8px auto auto 24px;
+
+}
+/*...............................................................................................................................*/
+
+
+
+.btn::before{
+    content:"\f0c9";
+    font-family:"FontAwesome";
+    color:#000;
+    font-size:20px;
+    position:absolute;
+    left:14.1vw;
+    cursor:pointer;
+    z-index:1;
+
+}
+.btn i{
+    font-size:22px;
+}
+#logout{
+    display:none;
+    position:fixed;
+    background-color:#fff;
+    right:0.5vw;
+    top:6.2vh;
+    z-index:1;
+
+}
+#logout a{
+    text-decoration:none;
+    color:#000;
+    border:solid 1px #EFEFEF;
+    display:block;
+    padding:10px 15px;
+    width:10vw;
+}
+#logout a:hover{
+    background-color:#EFEFEF;
+    color:#000;
+}
+
+
+
+
